@@ -29,8 +29,8 @@ class Produk {
     }
     //method beliProduk($jumlah)
     public function beliProduk($jumlah) {
-        if ($jumlah <= $this->stok {
-            $this->stok -= $jumlah
+        if ($jumlah <= $this->stok) {
+            $this->stok -= $jumlah;
             return "Pembelian berhasil. Sisa stok: $this->stok";
         } else {
             return "Stok tidak cukup untuk membeli $jumlah buah.";
