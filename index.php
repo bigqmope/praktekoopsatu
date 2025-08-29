@@ -18,7 +18,7 @@ $persegi->lebar = 5;
 echo "Luas: " . $persegi->hitungLuas() . "\n";         // Output: Luas: 50
 echo "Keliling: " . $persegi->hitungKeliling() . "\n"; // Output: Keliling: 30*/
 
-class Produk {
+/* class Produk {
     public $nama;
     public $harga;
     public $stok;
@@ -47,6 +47,17 @@ echo "\n";
 echo $belanja->beliProduk(2);
 echo "\n";
 echo $belanja->tampilkanInfo();
-echo "\n";
+echo "\n"; */
+
+class User {
+    public $username;
+    public $password;
+
+    //contruction untuk mengisi username dan password
+    public function_construct ($username, $password) {
+        $this->username = $username;
+        $this->password = $password;
+    }
+    public function
 ?>
-?>
+
