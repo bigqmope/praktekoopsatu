@@ -51,34 +51,3 @@ echo "/n"
 echo $belanja->tampilkanInfo();
 echo "/n"
 ?>
-
-class Produk {
-    public $nama;
-    public $harga;
-    public $stok;
-    //method menampilkan stok
-    public function tampilkanInfo() {
-        return "Buah $this->nama dengan harga $this->harga, stok sisa $this->stok";
-    }
-    //method beliProduk($jumlah)
-    public function beliProduk($jumlah) {
-        if ($jumlah <= $this->stok) {
-            $this->stok -= $jumlah;
-            return "Pembelian berhasil. Sisa stok: $this->stok";
-        } else {
-            return "Stok tidak cukup untuk membeli $jumlah buah.";
-        }
-    }
-}
-// membuat objek:
-$belanja = new Produk();
-$belanja->nama = "Alpukat";
-$belanja->harga = 20000;
-$belanja->stok = 30;
-//menampilkan output
-echo $belanja->tampilkanInfo();
-echo "\n";
-echo $belanja->beliProduk(2);
-echo "\n";
-echo $belanja->tampilkanInfo();
-echo "\n";
