@@ -10,14 +10,7 @@ $tugas = [
 <head>
     <meta charset="UTF-8">
     <title>Menu Tugas PBO</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; background: #e3dade; }
-        h1 { color: #333; text-align: center;}
-        ul { list-style: none; padding: 0; text-align: center; }
-        li { margin: 10px 0; }
-        a { text-decoration: none; color: white; background: #d8959b; padding: 10px 15px; border-radius: 5px; }
-        a:hover { background: #d0dbe7; }
-    </style>
+    <link rel="stylesheet" href="cantik.css">
 </head>
 <body>
     <h1>Daftar Tugas PBO</h1>
