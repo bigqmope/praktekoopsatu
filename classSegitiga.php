@@ -6,7 +6,7 @@ class segitiga {
   private $alas;
   private $tinggi;
 
-public function__construct($a,$b,$c, $alas, $tinggi) {
+public function __construct($a,$b,$c, $alas, $tinggi) {
   $this->a=$a;
   $this->b=$b;
   $this->c=$c;
