@@ -1,10 +1,10 @@
 <?php
 $sapa = "hello world"
+?>
 <!DOCTYPE html>
     <body>
     <p>Apa kabar?</p>
+    echo $sapa
     </body>
 </html>
-echo $sapa
-?>
-<a href="classsegitiga.php">Ayo ke class segitiga</a>
+<a href="classSegitiga.php">Ayo ke class segitiga</a>
