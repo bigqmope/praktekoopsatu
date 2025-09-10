@@ -22,6 +22,25 @@ public function keliling() {
   return $this->a + $this->b + $this->c;
 }
 
-/*public function CekJenis() {
-  if */
+public function CekJenis() {
+  if ($this->a == $this->b == $this->c) {
+    return "Segitiga sama sisi"
+  }
+  elif ($this->a == $this->b || $this->b == $this->c || $this->a == $this->c) {
+    return "Segitiga sama kaki"
+  }
+  else {
+    return "Segitiga sembarang"
+
+public function CetakInfo() {
+  echo "=====INFORMASI SEGITIGA=====";
+  echo "Alas: " . $this->alas . "<br>";
+  echo "Tinggi: " . $this->tinggi . "<br>";
+  echo "Sisi: " . $this->a, $this->b, $this->c . "<br>";
+  echo "Luas: " . luas() . "<br>";
+  echo "Keliling: " . keliling() . "<br>";
+  echo "Jenis: " . CekJenis() . "<br>";
+  echo "============================"; <br><br>
+  }
+}
 ?>
