@@ -46,3 +46,4 @@ public function CetakInfo() {
   }
 }
 ?>
+<a href="index.php">Kembali ke halaman Index</a>
