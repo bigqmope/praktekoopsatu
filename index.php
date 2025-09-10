@@ -13,10 +13,10 @@ $tugas = [
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background: #e3dade; }
         h1 { color: #333; text-align: center;}
-        ul { list-style: none; padding: 0; }
+        ul { list-style: none; padding: 0; text-align: center; }
         li { margin: 10px 0; }
-        a { text-decoration: none; color: white; background: #d8959b; padding: 10px 15px; border-radius: 5px; text-align: center;}
-        a:hover { background: #d8959d; }
+        a { text-decoration: none; color: white; background: #d8959b; padding: 10px 15px; border-radius: 5px; }
+        a:hover { background: #d0dbe7; }
     </style>
 </head>
 <body>
