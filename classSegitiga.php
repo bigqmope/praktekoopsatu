@@ -42,7 +42,7 @@ public function CetakInfo() {
   echo "Luas: " . luas() . "<br>";
   echo "Keliling: " . keliling() . "<br>";
   echo "Jenis: " . CekJenis() . "<br>";
-  echo "============================"; <br><br>
+  echo "============================<br><br>";
   }
 }
 ?>
