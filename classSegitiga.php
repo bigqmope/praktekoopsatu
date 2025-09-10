@@ -35,13 +35,13 @@ public function CekJenis() {
 }
 
 public function CetakInfo() {
-  echo "=====INFORMASI SEGITIGA=====";
+  echo "=====INFORMASI SEGITIGA=====<br>";
   echo "Alas: " . $this->alas . "<br>";
   echo "Tinggi: " . $this->tinggi . "<br>";
   echo "Sisi: " . $this->a, $this->b, $this->c . "<br>";
-  echo "Luas: " . luas() . "<br>";
-  echo "Keliling: " . keliling() . "<br>";
-  echo "Jenis: " . CekJenis() . "<br>";
+  echo "Luas: " . $this->luas() . "<br>";
+  echo "Keliling: " . $this->keliling() . "<br>";
+  echo "Jenis: " . $this->CekJenis() . "<br>";
   echo "============================<br><br>";
   }
 }
