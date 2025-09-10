@@ -24,13 +24,13 @@ public function keliling() {
 
 public function CekJenis() {
   if ($this->a == $this->b && $this->b == $this->c) {
-    return "Segitiga sama sisi";
+    return "Sama sisi";
   } 
   elseif ($this->a == $this->b || $this->b == $this->c || $this->a == $this->c) {
-    return "Segitiga sama kaki";
+    return "Sama kaki";
   }
   else {
-    return "Segitiga sembarang";
+    return "Sembarang";
   }
 }
 
