@@ -23,14 +23,16 @@ public function keliling() {
 }
 
 public function CekJenis() {
-  if ($this->a == $this->b == $this->c) {
-    return "Segitiga sama sisi"
-  }
-  elif ($this->a == $this->b || $this->b == $this->c || $this->a == $this->c) {
-    return "Segitiga sama kaki"
+  if ($this->a == $this->b && $this->b == $this->c) {
+    return "Segitiga sama sisi";
+  } 
+  elseif ($this->a == $this->b || $this->b == $this->c || $this->a == $this->c) {
+    return "Segitiga sama kaki";
   }
   else {
-    return "Segitiga sembarang"
+    return "Segitiga sembarang";
+  }
+}
 
 public function CetakInfo() {
   echo "=====INFORMASI SEGITIGA=====";
