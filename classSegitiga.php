@@ -236,3 +236,15 @@ try {
 } catch (\Exception $e) {
     echo "Error: " . $e->getMessage();
 }
+
+$project = new Project("Sistem Informasi", "2025-12-31");
+$task1 = new Task("Buat Database", "belum selesai");
+$task2 = new Task("Desain UI", "selesai");
+
+$project->tambahTask($task1);
+$project->tambahTask($task2);
+
+// Cek isi project dengan print_r
+echo "<pre>";
+print_r($project);
+echo "</pre>";
