@@ -244,6 +244,7 @@
     } catch (\Exception $e) {
         echo "Error: " . $e->getMessage();
     }
+    ?>
     <br>
     <br>
     <a href="index.php">Kembali ke halaman Index</a>
