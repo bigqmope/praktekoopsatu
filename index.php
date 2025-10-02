@@ -1,7 +1,7 @@
 <?php
 // daftar tugas
 $tugas = [
-    "objeksegitiga.php" => "Tugas Segitiga"
+    "classSegitiga.php" => "Tugas Segitiga"
 ];
 ?>
 
